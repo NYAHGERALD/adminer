@@ -6,4 +6,4 @@ services:
     dockerfilePath: Dockerfile
     envVars:
       - key: ADMINER_DEFAULT_SERVER
-        value: dpg-d2kgot15pdvs739jqlng-a.render.com
+        value: dpg-d2kgot15pdvs739jqlng-a

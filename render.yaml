@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: adminer
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: ADMINER_DEFAULT_SERVER
+        value: dpg-d2kgot15pdvs739jqlng-a.render.com
